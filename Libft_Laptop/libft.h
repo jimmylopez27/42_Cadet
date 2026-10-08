@@ -6,7 +6,7 @@
 /*   By: jbalayan <jbalayan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/01 11:41:41 by jbalayan          #+#    #+#             */
-/*   Updated: 2026/10/01 14:08:09 by jbalayan         ###   ########.fr       */
+/*   Updated: 2026/10/08 18:27:43 by jbalayan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ int					ft_isprint(int c);
 size_t				ft_strlen(const char *s);
 void				*ft_memset(void *b, int c, size_t len);
 void				ft_bzero(void *s, size_t n);
-void				*ft_memcpy(void *dst, const char *src, size_t n);
+void				*ft_memcpy(void *dst, const void *src, size_t n);
 void				*ft_memmove(void *dst, const void *src, size_t len);
 size_t				ft_strlcpy(char *dst, const char *src, size_t dstsize);
 size_t				ft_strlcat(char *dst, const char *src, size_t dstsize);
