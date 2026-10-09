@@ -6,23 +6,11 @@
 /*   By: jbalayan <jbalayan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/15 14:26:10 by jbalayan          #+#    #+#             */
-/*   Updated: 2026/10/01 14:16:22 by jbalayan         ###   ########.fr       */
+/*   Updated: 2026/10/09 14:53:38 by jbalayan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-size_t	ft_strlen(const char *str)
-{
-	size_t	i;
-
-	i = 0;
-	while (str[i])
-	{
-		i++;
-	}
-	return (i);
-}
 
 // Looks for last c in *s and return c if found.
 // If C is not found return NULL.

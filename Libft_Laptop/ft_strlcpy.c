@@ -6,23 +6,11 @@
 /*   By: jbalayan <jbalayan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/15 12:44:31 by jbalayan          #+#    #+#             */
-/*   Updated: 2026/10/01 14:14:49 by jbalayan         ###   ########.fr       */
+/*   Updated: 2026/10/09 13:44:14 by jbalayan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-size_t	ft_strlen(const char *str)
-{
-	size_t	i;
-
-	i = 0;
-	while (str[i])
-	{
-		i++;
-	}
-	return (i);
-}
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 {
